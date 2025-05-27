@@ -6,7 +6,147 @@
 <title>美しい庭園 - 自然の楽園へのガイド</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display&display=swap');
-  /* 省略 - すでにスタイルは整っており、変更の必要はありません */
+ style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display&display=swap');
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #2e3d49;
+    background: #f0f5f1;
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(90deg, #3a8d57, #85bb66);
+    color: #f0f5f1;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+  header h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 3px;
+  }
+  nav {
+    margin-top: 15px;
+  }
+  nav a {
+    color: #dce8df;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #f0f5f1;
+    text-decoration: underline;
+  }
+  main {
+    max-width: 960px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  main h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #3a8d57;
+  }
+  main p {
+    margin-bottom: 1.2em;
+    font-size: 1.1rem;
+    color: #495c4a;
+  }
+  section {
+    margin-bottom: 50px;
+  }
+  .img-container {
+    text-align: center;
+    margin: 30px 0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(58, 141, 87, 0.3);
+  }
+
+  /* New pricing styles */
+  .service-pricing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .service-item {
+    background: #e6f0e9;
+    border-radius: 15px;
+    padding: 20px;
+    flex: 1 1 280px;
+    box-shadow: 0 6px 15px rgba(58, 141, 87, 0.2);
+    text-align: center;
+    color: #2e4f29;
+  }
+  .service-item img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  .service-item h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  .service-item p {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  .service-price {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #3a8d57;
+  }
+
+  @media (max-width: 700px) {
+    .service-pricing {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  footer {
+    text-align: center;
+    background: #3a8d57;
+    color: #dce8df;
+    padding: 20px 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-top: 80px;
+  }
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    main {
+      padding: 30px 20px;
+      margin: 30px 15px;
+    }
+    nav a {
+      margin: 0 8px;
+      font-size: 1rem;
+    }
 </style>
 </head>
 <body>
