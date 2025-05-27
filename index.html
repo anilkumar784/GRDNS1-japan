@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>美しい庭園 - 自然の楽園へようこそ</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display&display=swap&subset=japanese');
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #2e3d49;
+    background: #f0f5f1;
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(90deg, #3a8d57, #85bb66);
+    color: #f0f5f1;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+  header h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 3px;
+  }
+  nav {
+    margin-top: 15px;
+  }
+  nav a {
+    color: #dce8df;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  nav a:hover {
+    color: #f0f5f1;
+    text-decoration: underline;
+  }
+  main {
+    max-width: 960px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  main h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #3a8d57;
+  }
+  main p {
+    margin-bottom: 1.2em;
+    font-size: 1.1rem;
+    color: #495c4a;
+  }
+  section {
+    margin-bottom: 50px;
+  }
+  .img-container {
+    text-align: center;
+    margin: 30px 0;
+  }
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(58, 141, 87, 0.3);
+  }
+
+  .service-pricing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .service-item {
+    background: #e6f0e9;
+    border-radius: 15px;
+    padding: 20px;
+    flex: 1 1 280px;
+    box-shadow: 0 6px 15px rgba(58, 141, 87, 0.2);
+    text-align: center;
+    color: #2e4f29;
+  }
+  .service-item img {
+    width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+  }
+  .service-item h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  .service-item p {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  .service-price {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #3a8d57;
+  }
+
+  @media (max-width: 700px) {
+    .service-pricing {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  footer {
+    text-align: center;
+    background: #3a8d57;
+    color: #dce8df;
+    padding: 20px 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-top: 80px;
+  }
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    main {
+      padding: 30px 20px;
+      margin: 30px 15px;
+    }
+    nav a {
+      margin: 0 8px;
+      font-size: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>美しい庭園</h1>
+  <nav>
+    <a href="index.html">ホーム</a>
+    <a href="privacy.html">プライバシーポリシー</a>
+    <a href="terms.html">利用規約</a>
+    <a href="cookies.html">クッキーポリシー</a>
+    <a href="contact.html">お問い合わせ</a>
+  </nav>
+</header>
+<main>
+  <section id="gardening-services">
+    <h2>ご自宅での園芸サービス</h2>
+    <p>ビューティフルガーデンズでは、専門の園芸サービスをあなたのご自宅までお届けします。美しい庭の改造から定期的なメンテナンスまで、あなただけの屋外スペースに合わせた専門的なケアを提供します。</p>
+    <p>忙しいあなたのために、庭づくりの専門家が訪問し、時間や手間を節約しながら豊かなオアシスを作り上げます。季節の花の植え付け、ヘッジの刈り込み、害虫駆除まで、すべて情熱と正確さをもって行います。</p>
+    <p>サービスのご予約は簡単です。お問い合わせページから、またはお電話でご連絡ください。専門スタッフがご希望の日時にお伺いし、年間を通じて美しい庭を維持いたします。</p>
+    <div class="img-container">
+      <img src="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6?auto=format&fit=crop&w=1000&q=80" alt="ご自宅で園芸サービスを提供する庭師" />
+    </div>
+    <p>手間をかけずに美しい庭を楽しみたい方へ。ビューティフルガーデンズにお任せください。</p>
+
+    <h3>園芸サービスの料金</h3>
+    <div class="service-pricing">
+      <div class="service-item">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=600&q=80" alt="庭のメンテナンス" />
+        <h3>庭のメンテナンス</h3>
+        <p>芝刈り、雑草取り、剪定、季節の清掃など、定期的な庭の手入れを行い、美しい状態を保ちます。</p>
+        <p class="service-price">1回あたり75ドル</p>
+      </div>
+      <div class="service-item">
+        <img src="https://images.unsplash.com/photo-1544511916-0148ccdeb877?auto=format&fit=crop&w=600&q=80" alt="植栽と造園" />
+        <h3>植栽と造園</h3>
+        <p>花壇、低木、野菜畑のデザインと植え付けで、庭の美しさと実用性を高めます。</p>
+        <p class="service-price">プロジェクトごとに150ドルから</p>
+      </div>
+      <div class="service-item">
+        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80" alt="害虫駆除" />
+        <h3>害虫駆除</h3>
+        <p>環境にやさしい方法で害虫を管理し、植物を健康に守ります。</p>
+        <p class="service-price">1回の処理あたり60ドル</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="garden-types">
+    <h2>さまざまな庭園のタイプ</h2>
+    <p>庭園は自然と創造性が調和する静かな逃避場所です。小さなバルコニーのオアシスから広大な裏庭まで、多様な庭園のタイプを理解すると、自分に合った理想の空間を作りやすくなります。</p>
+    <p><strong>フォーマルガーデン</strong>は対称的なデザイン、整った生け垣、手入れの行き届いた芝生、きちんと配置された花壇が特徴です。幾何学的で優雅な雰囲気を生み出します。</p>
+    <p><strong>インフォーマルガーデン</strong>は自然のままの風景や野草を活かし、柔らかい線や自由な配置で自然の美しさを模倣します。</p>
+    <p><strong>日本庭園</strong>は石、水の景観、盆栽や竹などのミニマリズム植物を使用し、静寂と調和を象徴します。瞑想的な空間を作り出します。</p>
+    <p><strong>野菜・キッチンガーデン</strong>は新鮮な果実やハーブ、野菜を育て、実用的で持続可能な食料源を提供します。</p>
+    <div class="img-container">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80" alt="花や小道の美しい庭園" />
+    </div>
+    <p>生活スタイルやスペース、手入れに使える時間に合わせて最適な庭園タイプを選びましょう。</p>
+  </section>
+
+  <section id="gardening-tips">
+    <h2>初心者と愛好家のための園芸の秘訣</h2>
+    <p>園芸は最初は難しく感じるかもしれませんが、正しいガイドがあれば誰でも豊かな庭を作り上げることができます。基本的なコツをご紹介します。</p>
+    <p><strong>気候と土壌を知る</strong>：住んでいる地域の気候や庭の土壌の種類を理解しましょう。植物によって育ちやすい環境が異なり、土壌検査で栄養やpHバランスの調整が必要か分かります。</p>
+    <p><strong>小さく始める</strong>：管理しやすいサイズと種類でスタートしましょう。徐々に慣れて庭を成長させられます。</p>
+    <p><strong>水やりの工夫</strong>：多くの植物は浅く頻繁よりも、深く少ない頻度の水やりを好みます。早朝の水やりが蒸発を抑え、病気のリスクも減らします。</p>
+    <p><strong>マルチング</strong>：植物の周りにマルチを敷いて水分保持や雑草防止、土壌改善に役立てます。オーガニックマルチは分解されて栄養も補給します。</p>
+    <p><strong>剪定と花摘み</strong>：枯れ枝や古い花を定期的に取り除き、新しい生長を促しましょう。</p>
+    <div class="img-container">
+      <img src="https://images.unsplash.com/photo-1498842812179-c81beecf902c?auto=format&fit=crop&w=1000&q=80" alt="土に植え付ける園芸家の手" />
+    </div>
+    <p>忍耐が大切です。庭は育つまで時間がかかりますが、その美しさは報われます。</p>
+  </section>
+
+  <section id="plant-care">
+    <h2>生き生きとした庭のための植物ケア</h2>
+    <p>植物のニーズを理解することが健康で美しい庭を保つ鍵です。光、水、栄養、保護のそれぞれが重要です。</p>
+    <p><strong>日光</strong>：庭がどれくらい日光を浴びるかを把握しましょう。日向を好む植物や半日陰、日陰を好む植物に分けて配置します。</p>
+    <p><strong>水やり</strong>：過剰な水やりは害になります。土壌の湿度を確認し、適切に調整しましょう。鉢植えは早く乾くため、頻度が多くなることがあります。</p>
+    <p><strong>肥料</strong>：季節に応じて適切な肥料を与えます。堆肥や有機肥料は土を自然に肥やし、化学肥料は即効性があります。</p>
+    <p><strong>害虫管理</strong>：害虫や病気の兆候を早期に発見し、対処します。ニームオイルや益虫の導入など、自然に優しい方法を推奨します。</p>
+    <div class="img-container">
+      <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1000&q=80" alt="植物のケアをする園芸家の手元" />
+    </div>
+    <p>植物の好みに合わせた継続的なケアで、色と生命あふれる庭になります。</p>
+  </section>
+
+  <section id="benefits">
+    <h2>園芸がもたらす心身と環境への多くのメリット</h2>
+    <p>園芸は趣味以上のもので、健康、福祉、環境に大きな効果があります。</p>
+    <p><strong>身体の運動</strong>：耕す、植える、草取り、散水といった作業は、筋力や持久力、柔軟性を高める軽から中程度の運動になります。</p>
+    <p><strong>精神の健康</strong>：緑の空間にいることでストレスや不安が軽減され、リラックスやマインドフルネス効果があります。植物の成長を見る喜びも得られます。</p>
+    <p><strong>新鮮で健康的な食材</strong>：自分で育てた果物や野菜は新鮮で農薬不使用。栄養価が高く、食の安全にも寄与します。</p>
+    <p><strong>環境への影響</strong>：庭園は生物多様性を高め、大気を浄化し、ミツバチや蝶などの受粉者の生息地を提供し、雨水の流出管理にも役立ちます。</p>
+    <p><strong>コミュニティと社会生活</strong>：コミュニティガーデンは社会的な結びつきや教育、共有責任を促進し、自然への共通の愛を通じて人々を近づけます。</p>
+    <div class="img-container">
+      <img src="https://images.unsplash.com/photo-1444090542259-0af8fa96557e?auto=format&fit=crop&w=1000&q=80" alt="コミュニティガーデニングの様子" />
+    </div>
+    <p>庭園とのふれあいは、私たちの暮らし全体を豊かにし、自然と人々をつなげます。</p>
+  </section>
+</main>
+<footer>
+  &copy; 2024 美しい庭園. All rights reserved.
+</footer>
+</body>
+</html>
